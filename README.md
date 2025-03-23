@@ -1,6 +1,6 @@
 # ZenSpace Studio de Yoga - Projeto Acadêmico
 
-Este repositório contém o código-fonte do projeto de **Landing Page do ZenSpace Studio**, desenvolvido como parte do curso de **Desenvolvimento Web** na **Universidade de Vassouras**. O objetivo do projeto foi criar um site fictício para um estúdio de yoga, com foco na criação de uma interface atrativa e funcional utilizando HTML, CSS e JavaScript.
+Este repositório contém o código-fonte do projeto de **Landing Page do ZenSpace Studio**, desenvolvido como parte do curso de **Desenvolvimento Web** na **Universidade de Vassouras**. O objetivo do projeto foi criar um site fictício para um estúdio de yoga, com foco na criação de uma interface atrativa e funcional utilizando HTML e CSS (JavaScript opcional)
 
 ![image](https://github.com/user-attachments/assets/a66be734-bef5-400f-b42c-da4738e82d31)
 
