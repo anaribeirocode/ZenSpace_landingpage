@@ -21,7 +21,7 @@ $(document).ready(function() {
 
         sections.each(function(i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 96;
+            const sectionTop = section.offset().top - 300;
             const sectionBottom = sectionTop+ section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
@@ -33,4 +33,14 @@ $(document).ready(function() {
         navItems.removeClass('active');
         $(navItems[activeSectionIndex]).addClass('active');
     });
+
+    $('.nav-item a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+          
+        $('html, body').animate({ 
+          scrollTop: targetOffset - 100
+        }, 500);
+      });
 });
